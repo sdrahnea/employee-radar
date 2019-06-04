@@ -1,0 +1,55 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:p="http://primefaces.org/ui"
+                template="main.xhtml"
+>
+
+    <ui:define name="general_content">
+
+        <p:panel header="Employee View">
+            <p:panelGrid columns="2" id="employeePanel">
+
+                <h:outputLabel value="ID" />
+                <p:outputLabel value="#{employeeController.selectedObject.id}"/>
+
+                <h:outputLabel value="First Name" />
+                <p:inputText  value="#{employeeController.selectedObject.firstName}"/>
+
+                <h:outputLabel value="Last Name" />
+                <p:inputText  value="#{employeeController.selectedObject.lastName}"/>
+
+                <h:outputLabel value="Birth Date" />
+                <p:inputText  value="#{employeeController.selectedObject.birthDate}"/>
+
+                <h:outputLabel value="Hire Date" />
+                <p:inputText  value="#{employeeController.selectedObject.hireDate}"/>
+
+                <h:outputLabel value="Dismissal Date" />
+                <p:inputText  value="#{employeeController.selectedObject.dismissalDate}"/>
+
+                <h:outputLabel value="Notes" />
+                <p:inputTextarea  value="#{employeeController.selectedObject.notes}"
+                                  cols="100" rows="15"/>
+
+                <h:outputLabel value="Created date" />
+                <p:outputLabel  value="#{employeeController.selectedObject.createdDate}"/>
+
+                <h:outputLabel value="Valid to date" />
+                <p:inputText value="#{employeeController.selectedObject.endDate}" />
+
+            </p:panelGrid>
+            <p:commandButton value="Cancel"
+                             action="#{employeeController.cancel}"
+                             process="@all"
+                             update="@all"
+                             icon="ui-icon-disk" />
+            <p:commandButton value="#{employeeController.editButtonCaption}"
+                             action="#{employeeController.save}"
+                             process="@all"
+                             update="@all"
+                             icon="ui-icon-disk" />
+        </p:panel>
+    </ui:define>
+</ui:composition>
