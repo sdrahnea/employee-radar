@@ -1,8 +1,8 @@
-package com.udc.model;
+package com.er.model;
 
-import com.udc.model.ChartType;
-import com.udc.model.Constant;
-import com.udc.model.CoreEntity;
+import com.er.model.ChartType;
+import com.er.model.Constant;
+import com.er.model.CoreEntity;
 
 import javax.persistence.*;
 import java.util.Arrays;

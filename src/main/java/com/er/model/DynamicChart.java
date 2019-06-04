@@ -1,4 +1,4 @@
-package com.udc.model;
+package com.er.model;
 
 /**
  * Created by sdrahnea

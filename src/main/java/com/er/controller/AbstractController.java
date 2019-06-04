@@ -1,8 +1,8 @@
-package com.udc.controller;
+package com.er.controller;
 
 
-import com.udc.model.CoreEntity;
-import com.udc.service.AbstractService;
+import com.er.model.CoreEntity;
+import com.er.service.AbstractService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

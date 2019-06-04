@@ -1,7 +1,7 @@
-package com.udc.controller;
+package com.er.controller;
 
-import com.udc.model.Dashboard;
-import com.udc.model.DynamicChart;
+import com.er.model.Dashboard;
+import com.er.model.DynamicChart;
 import org.primefaces.model.chart.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

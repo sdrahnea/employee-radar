@@ -1,6 +1,6 @@
-package com.udc.repositories;
+package com.er.repositories;
 
-import com.udc.model.security.SecurityUser;
+import com.er.model.security.SecurityUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,4 @@
-package com.udc.model.security;
+package com.er.model.security;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

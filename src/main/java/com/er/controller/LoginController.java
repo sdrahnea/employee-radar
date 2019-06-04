@@ -1,4 +1,4 @@
-package com.udc.controller;
+package com.er.controller;
 
 import org.springframework.stereotype.Component;
 import javax.faces.bean.SessionScoped;

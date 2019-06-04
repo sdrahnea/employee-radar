@@ -1,6 +1,6 @@
-package com.udc.repository;
+package com.er.repository;
 
-import com.udc.model.Constant;
+import com.er.model.Constant;
 import org.springframework.data.repository.CrudRepository;
 
 /**

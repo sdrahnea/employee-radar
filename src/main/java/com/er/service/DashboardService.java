@@ -1,6 +1,6 @@
-package com.udc.service;
+package com.er.service;
 
-import com.udc.model.Dashboard;
+import com.er.model.Dashboard;
 import org.springframework.stereotype.Component;
 
 /**

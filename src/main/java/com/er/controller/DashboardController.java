@@ -1,11 +1,8 @@
-package com.udc.controller;
+package com.er.controller;
 
-import com.udc.model.Dashboard;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import com.er.model.Dashboard;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import javax.faces.bean.ManagedBean;
 
 /**
  * Created by sdrahnea

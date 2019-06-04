@@ -1,6 +1,6 @@
-package com.udc.controller;
+package com.er.controller;
 
-import com.udc.model.Constant;
+import com.er.model.Constant;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

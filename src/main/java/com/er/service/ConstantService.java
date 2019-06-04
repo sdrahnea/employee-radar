@@ -1,6 +1,6 @@
-package com.udc.service;
+package com.er.service;
 
-import com.udc.model.Constant;
+import com.er.model.Constant;
 import org.springframework.stereotype.Component;
 
 /**

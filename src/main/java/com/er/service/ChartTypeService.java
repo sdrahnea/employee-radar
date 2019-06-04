@@ -1,6 +1,6 @@
-package com.udc.service;
+package com.er.service;
 
-import com.udc.model.ChartType;
+import com.er.model.ChartType;
 import org.springframework.stereotype.Component;
 
 /**

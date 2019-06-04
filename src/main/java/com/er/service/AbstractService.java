@@ -1,6 +1,6 @@
-package com.udc.service;
+package com.er.service;
 
-import com.udc.model.CoreEntity;
+import com.er.model.CoreEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.repository.CrudRepository;
 

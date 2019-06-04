@@ -1,6 +1,6 @@
-package com.udc.repository;
+package com.er.repository;
 
-import com.udc.model.Dashboard;
+import com.er.model.Dashboard;
 import org.springframework.data.repository.CrudRepository;
 
 /**

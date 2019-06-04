@@ -1,6 +1,6 @@
-package com.udc.repository;
+package com.er.repository;
 
-import com.udc.model.ChartType;
+import com.er.model.ChartType;
 import org.springframework.data.repository.CrudRepository;
 
 /**
