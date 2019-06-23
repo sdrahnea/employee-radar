@@ -1,7 +1,7 @@
 # employee-radar application (this project is in development)
 
-Employee Radar is an applicaiton for managing employee from enterprices. 
-This is a software of the application which use the following frameworks: javasql, spring framework, spring boot, spring jpa, hibernate, primefaces and MySQL as database. 
+Employee Radar is an application for managing employee from the enterprise. 
+This is a software of the application which use the following frameworks: java, sql, spring framework, spring boot, spring jpa, hibernate, PrimeFaces and MySQL as database.
 
 ## Summary
 * Getting Started (Prerequisites, Installing)
