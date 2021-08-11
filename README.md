@@ -1,30 +1,30 @@
-# employee-radar application (this project is in development)
+# Employee Radar Application (this project is in development)
 
 Employee Radar is an application for managing employee from the enterprise. 
 This is a software of the application which use the following frameworks: java, sql, spring framework, spring boot, spring jpa, hibernate, PrimeFaces and MySQL as database.
 
 ## Summary
-* Getting Started (Prerequisites, Installing)
-* Running the tests
-* Deployment
-* Built With
-* Do you have any issue?
-* Contributing
-* Versioning
-* Authors
-* License
-* Donation
+* 1. Getting Started (Prerequisites, Installing)
+* 2. Running the tests
+* 3. Deployment
+* 4. Built With
+* 5. Do you have any issue?
+* 6. Contributing
+* 7. Versioning
+* 8. Authors
+* 9. License
+* 10. Donation
 
 
 ## Getting Started
 
 Clone or download a copy of this project.
 
-### Prerequisites
+### 1. Prerequisites
 
 This project requires Java 1.8, MySQL and Maven.
 
-### Installing
+### 1.1 Installing
 
 After MySQL instalation, it is required to create a dabase:
 
@@ -100,11 +100,11 @@ SDR:employee-radar sdrahnea$ mvn clean compile package
 SDR:employee-radar sdrahnea$ 
 ```
 
-## Running the tests
+## 2. Running the tests
 
 This project does not have any kind of tests :).
 
-## Deployment
+## 3. Deployment
 
 Once the build (the jar file) is ready the application can be run. Please, use the following command to run the application:
 ```
@@ -113,7 +113,7 @@ SDR:employee-radar sdrahnea$ java -jar target/employee-radar-0.0.1-SNAPSHOT.jar
 If was used default configuration then the application should be available at this url: http://localhost:8081/mytemplate/login.xhtml 
 Use the following credentials: username: admin, password: 123.
 
-## Built With
+## 4. Built With
 
 * [Java](https://www.java.com/en/download/) - Java technology allows you to work and play in a secure computing environment. Java allows you to play online games, chat with people around the world, calculate your mortgage interest, and view images in 3D, just to name a few.
 * [PrimeFaces](https://www.primefaces.org/) - PrimeFaces is a popular open source framework for JavaServer Faces featuring over 100 components, touch optimized mobilekit, client side validation, theme engine and more.
@@ -124,27 +124,27 @@ Use the following credentials: username: admin, password: 123.
 * [MySQL](https://www.mysql.com/) - MySQL is the world's most popular open source database. Whether you are a fast growing web property, technology ISV or large enterprise, MySQL can cost-effectively help you deliver high performance, scalable database applications.
 * [Maven](https://maven.apache.org/) - Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information. 
 
-## Do you have any issue?
+## 5. Do you have any issue?
 
 Please contact via LinkedIn account or drop an email (read [LICENSE.md](LICENSE.md) file).
 
-## Contributing
+## 6. Contributing
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
+## 7. Versioning
 
 We use [SemVer](http://semver.org/) for versioning.
 
-## Authors
+## 8. Authors
 
 * **Sergiu Drahnea** - *Initial work* - [LinkedIn](https://www.linkedin.com/in/sergiu-drahnea)
 
-## License
+## 9. License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Donation
+## 10. Donation
 * [PayPal](https://www.paypal.me/sdrahnea) - any donation is welcomed in case that you was pleased with this work :p
 * [EGLD](http://elrond.com/) - Address: `erd1t3t5m8v7862asdh48nq820shsmlmuw9jpm87qw25cvch7djpkapskgq4es`
 * [TROY](https://troytrade.com/) - Address: `bnb136ns6lfw4zs5hg4n85vdthaad7hq5m4gtkgf23` and Memo: `100079140`
